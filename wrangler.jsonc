@@ -1,0 +1,17 @@
+{
+  "name": "cunlink2",
+  "main": "src/index.tsx",
+  "assets": { "directory": "public" },
+  "compatibility_date": "2026-07-24",
+  "compatibility_flags": ["nodejs_compat"],
+  "upload_source_maps": true,
+  "observability": {
+    "logs": {
+      "enabled": true,
+      "invocation_logs": true
+    },
+    "traces": {
+      "enabled": true
+    }
+  }
+}
